@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week1</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <style>
+        .Page3 {
+            height: 98vh;
+            max-width: 99vw;
+            position: relative;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .Page3 .Page3Bar1 {
+            width: 150vw;
+            position: absolute;
+            top: 0;
+            z-index: 9;
+        }
+
+        .Page3 .Page3BG {
+            position: absolute;
+            bottom: 2em;
+            background-image: url('./img/Banner_BG.png');
+            background-size: cover;
+            height: 88vh;
+            width: 100vw;
+            color: #000;
+        }
+        .Page3 .Page3BG img{
+            position: absolute;
+        }
+        .Page3 .Page3BG div{
+            position: absolute;
+            color: #000;
+        }
+        .Page3 .Page3BG .Page3BG_img1{
+            position:absolute;
+            top: 30vh;
+            left: 15vw;
+        }
+        .Page3 .Page3BG .Page3BG_img2{
+            position: absolute;
+            top: 30vh;
+            right: 15vw;
+        }
+        .Page3 .Page3BG .Page3BG_img3{
+            position: absolute;
+            top: 12vh;
+            right: 18vw;
+        }
+        .Page3 .Page3BG .Page3BG_img4{
+            position: absolute;
+            bottom: -5vh;
+            left: 15vw;
+        }
+        
+        .Page3 .Page3BG .Page3BG_div1{
+            position: absolute;
+            top: 25vh;
+            left: 32vw;
+            background-image: url('./img/background.png');
+            background-size: cover;
+            text-align: center;
+            line-height: normal;
+            font-size: 80px;
+            font-weight: bolder;
+        }
+        
+        .Page3 .Page3BG .Page3BG_div2{
+            position: absolute;
+            bottom: 12vh;
+            left: 28vw;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bolder;
+        }
+
+        .Page3 .Page3Bar2 {
+            width: 150vw;
+            position: absolute;
+            bottom: 1.5em;
+            right: -2em;
+            z-index: 9;
+        }
+
+        @media screen and (max-width: 650px) {
+
+            .Page3 .Page3BG .Page3BG_img1{
+                top: 3vh;
+                left: 50%;
+                width: 108px;
+                transform: rotate(45deg);
+            }
+            .Page3 .Page3BG .Page3BG_img2{
+                width: 108px;
+                top: 60vh;
+                left: 50%;
+                transform: rotate(145deg);
+            }
+            .Page3 .Page3BG .Page3BG_img3{
+                width: 60px;
+                top: 20vh;
+                right: 25vw;
+            }
+            .Page3 .Page3BG .Page3BG_img4{
+                bottom: -2 vh;
+                left: 0vw;
+                width: 160px;
+            }
+            
+            .Page3 .Page3BG .Page3BG_div2{
+                top: 52vh;
+                left: 32vw;
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (min-width: 651px) and (max-width: 768px) {
+
+            .Page3 .Page3BG .Page3BG_img1{
+                top: 3vh;
+                left: 50%;
+                width: 108px;
+                transform: rotate(45deg);
+            }
+            .Page3 .Page3BG .Page3BG_img2{
+                width: 108px;
+                top: 60vh;
+                left: 50%;
+                transform: rotate(145deg);
+            }
+            .Page3 .Page3BG .Page3BG_img3{
+                width: 60px;
+                top: 20vh;
+                right: 23vw;
+            }
+            .Page3 .Page3BG .Page3BG_img4{
+                bottom: -5vh;
+                left: 0vw;
+                width: 240px;
+            }
+            .Page3 .Page3BG .Page3BG_div2{
+                top: 52vh;
+                left: 32vw;
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (min-width: 769px) {
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 979px) {
+
+            .Page3 .Page3BG .Page3BG_img1{
+                width: 108px;
+            }
+            .Page3 .Page3BG .Page3BG_img2{
+                width: 108px;
+            }
+            .Page3 .Page3BG .Page3BG_img3{
+                width: 76px;
+                top: 16vh;
+                right: 22vw;
+            }
+            .Page3 .Page3BG .Page3BG_img4{
+                width: 110px;
+                bottom: -1vh;
+                left: 15vw;
+            }
+
+            .Page3 .Page3BG .Page3BG_div1{
+                width: 285px;
+                height: 180px;
+            }
+        }
+
+        @media screen and (min-width: 980px) and (max-width: 1104px) {
+
+
+            .Page3 .Page3BG .Page3BG_img1{
+                width: 148px;
+            }
+            .Page3 .Page3BG .Page3BG_img2{
+                width: 148px;
+            }
+            .Page3 .Page3BG .Page3BG_img3{
+                width: 85px;
+                top: 16vh;
+                right: 22vw;
+            }
+            .Page3 .Page3BG .Page3BG_img4{
+                width: 140px;
+                bottom: -1vh;
+                left: 15vw;
+            }
+            .Page3 .Page3BG .Page3BG_div1{
+                width: 361px;
+                height: 228px;
+            }
+            .Page3 .Page3BG .Page3BG_div2{
+                left: 31vw;
+            }
+        }
+
+        @media screen and (min-width: 1104px) and (max-width: 1184px) {
+
+            .Page3 .Page3BG .Page3BG_img1{
+                width: 155px;
+            }
+            .Page3 .Page3BG .Page3BG_img2{
+                width: 155px;
+            }
+            .Page3 .Page3BG .Page3BG_img3{
+                width: 90px;
+                top: 16vh;
+                right: 22vw;
+            }
+            .Page3 .Page3BG .Page3BG_img4{
+                width: 160px;
+                bottom: -1vh;
+                left: 15vw;
+            }
+            .Page3 .Page3BG .Page3BG_div1{
+                width: 407px;
+                height: 257px;
+            }
+            .Page3 .Page3BG .Page3BG_div2{
+                left: 31vw;
+                font-size: 42px;
+            }
+        }
+
+        @media screen and (min-width: 1184px) and (max-width: 1440px) {
+
+            .Page3 .Page3BG .Page3BG_img1{
+                width: 166px;
+            }
+            .Page3 .Page3BG .Page3BG_img2{
+                width: 166px;
+            }
+            .Page3 .Page3BG .Page3BG_img3{
+                width: 110px;
+                top: 14vh;
+                right: 22vw;
+            }
+            .Page3 .Page3BG .Page3BG_img4{
+                width: 170px;
+                bottom: -1vh;
+                left: 15vw;
+            }
+            .Page3 .Page3BG .Page3BG_div1{
+                width: 436px;
+                height: 276px;
+                font-size: 7em;
+            }
+            .Page3 .Page3BG .Page3BG_div2{
+                left: 31vw;
+                font-size: 48px;
+            }
+
+
+        }
+
+        @media screen and (min-width: 1440px) {
+
+            .Page3 .Page3BG .Page3BG_img1{
+                width: 202px;
+            }
+            .Page3 .Page3BG .Page3BG_img2{
+                width: 202px;
+            }
+            .Page3 .Page3BG .Page3BG_img3{
+                width: 150px;
+                top: 14vh;
+                right: 21vw;
+            }
+            .Page3 .Page3BG .Page3BG_img4{
+                width: 207px;
+                bottom: -1vh;
+                left: 15vw;
+            }
+            .Page3 .Page3BG .Page3BG_div1{
+                width: 530px;
+                height: 335px;
+                font-size: 7em;
+            }
+            .Page3 .Page3BG .Page3BG_div2{
+                left: 32vw;
+                font-size: 55px;
+            }
+
+        }
+    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Page1">
+        <div class="header">
+            <div class="mobileICON">三</div>
+            <img src="./img/the f2e 1.png">
+            <ul class="menu">
+                <li>關卡資訊<br /><span>_</span></li>
+                <li>活動說明<br /><span>_</span></li>
+                <li>攻略資源<br /><span>_</span></li>
+                <li>求職專區<br /><span>_</span></li>
+                <li class="Login">登入</li>
+            </ul>
+            <div class="Join">
+                立即報名
+            </div>
+        </div>
+        <div class="headerTitle">
+            <div class="aos-animate" data-aos="fade-up" data-aos-duration="1000">4TH</div>
+            <div class="aos-animate" data-aos="fade-up" data-aos-duration="1000">THE F2E</div>
+            <div>互動式網頁設計</div>
+            <div>立即報名</div>
+        </div>
+        <div class="headerAni">
+            <div class="aos-animate" data-aos="fade-down" data-aos-duration="2000"><img src="./img/img.png"></div>
+            <div><img src="./img/illustration 02.png"> </div>
+            <div class="aos-animate" data-aos="fade-up" data-aos-duration="2000">
+                <img src="./img/Lock-locked.png">
+            </div>
+            <div>
+                <img src="./img/illustration 01.png">
+            </div>
+        </div>
+        <div class="JoinUS">
+            <div>
+                JOIN US <img src="./img/Star 1.png" />JOIN US <img src="./img/Star 1.png" />JOIN US <img
+                    src="./img/Star 1.png" />JOIN US <img src="./img/Star 1.png" />JOIN US <img
+                    src="./img/Star 1.png" />JOIN US <img src="./img/Star 1.png" />JOIN US <img
+                    src="./img/Star 1.png" />JOIN US <img src="./img/Star 1.png" />JOIN US <img
+                    src="./img/Star 1.png" />JOIN US <img src="./img/Star 1.png" />JOIN US <img
+                    src="./img/Star 1.png" />
+            </div>
+        </div>
+    </div>
+    <div class="Page2">
+        <div class="aos-animate" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+            <img class="img1" src="./img/Property 126.png">
+            <img class="img2" src="./img/Property 1Star 3.png">
+            <img class="img3" src="./img/Property 1T02.png">
+            <img class="img4" src="./img/Property 103.png">
+        </div>
+        <div class="aos-animate" data-aos="zoom-out" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+            <img class="img5" src="./img/Property 101.png">
+            <img class="img6" src="./img/Property 1Union.png">
+            <img class="img7" src="./img/Property 1T03.png">
+        </div>
+        <div class="aos-animate" data-aos="zoom-out-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+            <img class="img8" src="./img/Property 104.png">
+            <img class="img9" src="./img/Property 128.png">
+            <img class="img10" src="./img/Property 1T01.png">
+            <img class="img11" src="./img/Property 102.png">
+        </div>
+    </div>
+    <div class="Page3">
+        <div class="Page3Bar1">
+            <img src="./img/Property_1Page3Bar.png"
+                srcset="./img/Property_1Page3Bar.png 768w, ./img/Property_1Page3Bar2.png 1440w">
+        </div>
+        <div class="Page3BG">
+            <img class="Page3BG_img1" src="./img/Image.png">
+            <img class="Page3BG_img2" src="./img/Image2.png">
+            <div class="Page3BG_div1">
+                 互動式<br>網頁設計
+            </div>
+            <div class="Page3BG_div2">前端工程師 X UI設計師</div>
+            <img class="Page3BG_img3" src="./img/Image3.png">
+            <img class="Page3BG_img4" src="./img/ux design.png">
+        </div>
+        <div class="Page3Bar2">
+            <img src="./img/Property_1Page3Bar.png"
+                srcset="./img/Property_1Page3Bar.png 768w, ./img/Property_1Page3Bar2.png 1440w">
+        </div>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $(window).resize(function () {
+            if ($(window).width() >= 768 && $(".menu").is(":hidden")) {
+                $(".menu").show();
+            }
+            if ($(window).width() < 768 && $(".menu").is(":visible")) {
+                $(".menu").hide();
+            }
+        });
+        $(".mobileICON").on('click', function (e) {
+            $(".menu").slideToggle("slow");
+            e.stopPropagation();
+        });
+        $(document).on('click', function () {
+            if ($(".menu").is(":visible") && $(".mobileICON").is(":visible")) {
+                $(".menu").slideToggle("slow");
+            }
+        })
+        $(".menu li").on("mouseover", function () {
+            if ($(window).width() >= 768) $(this).children("span").show();
+        });
+        $(".menu li").on("mouseout", function () {
+            if ($(window).width() >= 768) $(this).children("span").hide();
+        });
+        $(document).ready(function () {
+            AOS.init();
+            left();
+            headerAni();
+        });
+        function left() {
+            var x = $(".JoinUS div:nth-child(1)").css("margin-left").replace("px", "") * 1 + 3;
+            if (x >= 0) x = -191;
+            $(".JoinUS div:nth-child(1)").css("margin-left", x);
+            setTimeout(() => {
+                left();
+            }, 100);
+        }
+        var shift = 0;
+        var order = 1;
+        var mobilType = 0;
+        function headerAni() {
+            if ($(window).width() >= 768) {
+                if ($(window).scrollTop() < 500 && mobilType == 1) location.reload();
+                if (order == 1) {
+                    if (shift < 30) {
+                        shift++;
+                        var xx = $(".headerAni div:nth-child(1)").css("padding-top").replace("px", "") * 1 + 1;
+                        $(".headerAni div:nth-child(1)").css("padding-top", xx);
+                        xx = $(".headerAni div:nth-child(3)").css("margin-top").replace("px", "") * 1 - 1;
+                        $(".headerAni div:nth-child(3)").css("margin-top", xx);
+                    } else {
+                        order = -1;
+                    }
+                } else {
+                    if (shift > -30) {
+                        shift--;
+                        var xx = $(".headerAni div:nth-child(1)").css("padding-top").replace("px", "") * 1 - 1;
+                        $(".headerAni div:nth-child(1)").css("padding-top", xx);
+                        xx = $(".headerAni div:nth-child(3)").css("margin-top").replace("px", "") * 1 + 1;
+                        $(".headerAni div:nth-child(3)").css("margin-top", xx);
+                        console.log(xx);
+                    } else {
+                        order = 1;
+                    }
+                }
+            } else {
+                mobilType = 1;
+                $(".headerAni div:nth-child(1)").css("padding-top", 0);
+                $(".headerAni div:nth-child(3)").css("margin-top", 0);
+            }
+            setTimeout(function () { headerAni(); }, 100);
+        }
+    </script>
+</body>
+
+</html>
