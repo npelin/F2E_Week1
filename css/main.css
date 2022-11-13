@@ -216,88 +216,6 @@ body {
 }
 
 
-.Page3 {
-    height: 98vh;
-    max-width: 99vw;
-    position: relative;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.Page3 .Page3Bar1 {
-    width: 150vw;
-    position: absolute;
-    top: 0;
-    z-index: 9;
-}
-
-.Page3 .Page3BG {
-    position: absolute;
-    bottom: 2em;
-    background-image: url('./img/Banner_BG.png');
-    background-size: cover;
-    height: 88vh;
-    width: 100vw;
-    color: #000;
-}
-.Page3 .Page3BG img{
-    position: absolute;
-}
-.Page3 .Page3BG div{
-    position: absolute;
-    color: #000;
-}
-.Page3 .Page3BG .Page3BG_img1{
-    position:absolute;
-    top: 30vh;
-    left: 15vw;
-}
-.Page3 .Page3BG .Page3BG_img2{
-    position: absolute;
-    top: 30vh;
-    right: 15vw;
-}
-.Page3 .Page3BG .Page3BG_img3{
-    position: absolute;
-    top: 12vh;
-    right: 18vw;
-}
-.Page3 .Page3BG .Page3BG_img4{
-    position: absolute;
-    bottom: -5vh;
-    left: 15vw;
-}
-
-.Page3 .Page3BG .Page3BG_div1{
-    position: absolute;
-    top: 25vh;
-    left: 32vw;
-    background-image: url('./img/background.png');
-    background-size: cover;
-    text-align: center;
-    line-height: normal;
-    font-size: 80px;
-    font-weight: bolder;
-}
-
-.Page3 .Page3BG .Page3BG_div2{
-    position: absolute;
-    bottom: 12vh;
-    left: 28vw;
-    text-align: center;
-    font-size: 36px;
-    font-weight: bolder;
-}
-
-.Page3 .Page3Bar2 {
-    width: 150vw;
-    position: absolute;
-    bottom: 1.5em;
-    right: -2em;
-    z-index: 9;
-}
-
-
 
 /*大版設定*/
 .header .menu li span {
@@ -465,34 +383,6 @@ body {
     .Page2 .img11 {
         width: 73px;
     }
-    .Page3 .Page3BG .Page3BG_img1{
-        top: 3vh;
-        left: 50%;
-        width: 108px;
-        transform: rotate(45deg);
-    }
-    .Page3 .Page3BG .Page3BG_img2{
-        width: 108px;
-        top: 60vh;
-        left: 50%;
-        transform: rotate(145deg);
-    }
-    .Page3 .Page3BG .Page3BG_img3{
-        width: 60px;
-        top: 20vh;
-        right: 25vw;
-    }
-    .Page3 .Page3BG .Page3BG_img4{
-        bottom: -2 vh;
-        left: 0vw;
-        width: 160px;
-    }
-    
-    .Page3 .Page3BG .Page3BG_div2{
-        top: 52vh;
-        left: 32vw;
-        font-size: 30px;
-    }
 }
 
 @media screen and (min-width: 651px) and (max-width: 769px) {
@@ -649,33 +539,6 @@ body {
     .Page2 .img11 {
         left: 48vw;
         width: 73px;
-    }
-    .Page3 .Page3BG .Page3BG_img1{
-        top: 3vh;
-        left: 50%;
-        width: 108px;
-        transform: rotate(45deg);
-    }
-    .Page3 .Page3BG .Page3BG_img2{
-        width: 108px;
-        top: 60vh;
-        left: 50%;
-        transform: rotate(145deg);
-    }
-    .Page3 .Page3BG .Page3BG_img3{
-        width: 60px;
-        top: 20vh;
-        right: 23vw;
-    }
-    .Page3 .Page3BG .Page3BG_img4{
-        bottom: -5vh;
-        left: 0vw;
-        width: 240px;
-    }
-    .Page3 .Page3BG .Page3BG_div2{
-        top: 52vh;
-        left: 32vw;
-        font-size: 30px;
     }
 }
 
@@ -847,27 +710,6 @@ body {
         top: -8em;
         left: -2em;
     }
-    .Page3 .Page3BG .Page3BG_img1{
-        width: 108px;
-    }
-    .Page3 .Page3BG .Page3BG_img2{
-        width: 108px;
-    }
-    .Page3 .Page3BG .Page3BG_img3{
-        width: 76px;
-        top: 16vh;
-        right: 22vw;
-    }
-    .Page3 .Page3BG .Page3BG_img4{
-        width: 110px;
-        bottom: -1vh;
-        left: 15vw;
-    }
-
-    .Page3 .Page3BG .Page3BG_div1{
-        width: 285px;
-        height: 180px;
-    }
 }
 
 @media screen and (min-width: 980px) and (max-width: 1104px) {
@@ -924,29 +766,6 @@ body {
 
     .Page2 .img11 {
         left: 50vw;
-    }
-    .Page3 .Page3BG .Page3BG_img1{
-        width: 148px;
-    }
-    .Page3 .Page3BG .Page3BG_img2{
-        width: 148px;
-    }
-    .Page3 .Page3BG .Page3BG_img3{
-        width: 85px;
-        top: 16vh;
-        right: 22vw;
-    }
-    .Page3 .Page3BG .Page3BG_img4{
-        width: 140px;
-        bottom: -1vh;
-        left: 15vw;
-    }
-    .Page3 .Page3BG .Page3BG_div1{
-        width: 361px;
-        height: 228px;
-    }
-    .Page3 .Page3BG .Page3BG_div2{
-        left: 31vw;
     }
 }
 
@@ -1009,30 +828,6 @@ body {
 
     .Page2 .img11 {
         left: 47vw;
-    }
-    .Page3 .Page3BG .Page3BG_img1{
-        width: 155px;
-    }
-    .Page3 .Page3BG .Page3BG_img2{
-        width: 155px;
-    }
-    .Page3 .Page3BG .Page3BG_img3{
-        width: 90px;
-        top: 16vh;
-        right: 22vw;
-    }
-    .Page3 .Page3BG .Page3BG_img4{
-        width: 160px;
-        bottom: -1vh;
-        left: 15vw;
-    }
-    .Page3 .Page3BG .Page3BG_div1{
-        width: 407px;
-        height: 257px;
-    }
-    .Page3 .Page3BG .Page3BG_div2{
-        left: 31vw;
-        font-size: 42px;
     }
 }
 
@@ -1150,31 +945,6 @@ body {
         top: 59vh;
         width: 195px;
     }
-    .Page3 .Page3BG .Page3BG_img1{
-        width: 166px;
-    }
-    .Page3 .Page3BG .Page3BG_img2{
-        width: 166px;
-    }
-    .Page3 .Page3BG .Page3BG_img3{
-        width: 110px;
-        top: 14vh;
-        right: 22vw;
-    }
-    .Page3 .Page3BG .Page3BG_img4{
-        width: 170px;
-        bottom: -1vh;
-        left: 15vw;
-    }
-    .Page3 .Page3BG .Page3BG_div1{
-        width: 436px;
-        height: 276px;
-        font-size: 7em;
-    }
-    .Page3 .Page3BG .Page3BG_div2{
-        left: 31vw;
-        font-size: 48px;
-    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -1286,30 +1056,5 @@ body {
         left: 62vw;
         top: 59vh;
         width: 195px;
-    }
-    .Page3 .Page3BG .Page3BG_img1{
-        width: 202px;
-    }
-    .Page3 .Page3BG .Page3BG_img2{
-        width: 202px;
-    }
-    .Page3 .Page3BG .Page3BG_img3{
-        width: 150px;
-        top: 14vh;
-        right: 21vw;
-    }
-    .Page3 .Page3BG .Page3BG_img4{
-        width: 207px;
-        bottom: -1vh;
-        left: 15vw;
-    }
-    .Page3 .Page3BG .Page3BG_div1{
-        width: 530px;
-        height: 335px;
-        font-size: 7em;
-    }
-    .Page3 .Page3BG .Page3BG_div2{
-        left: 32vw;
-        font-size: 55px;
     }
 }
