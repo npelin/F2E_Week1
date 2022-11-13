@@ -5,7 +5,9 @@ body {
     font-family: 'Monument Extended', 'Noto Sand CJK TC', Arial, Helvetica, sans-serif;
 }
 
-.Page1 {}
+.Page1 {
+    overflow: hidden;
+}
 
 .header {
     display: flex;
