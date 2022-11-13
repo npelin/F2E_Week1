@@ -287,7 +287,7 @@ body {
     }
 
     .headerTitle div:nth-child(1){
-        padding-left: 8em;
+        padding-left: 7em;
     }
 
     .headerAni {
@@ -444,9 +444,9 @@ body {
     .header .menu li span {
         display: none;
     }
-    
+
     .headerTitle div:nth-child(1){
-        padding-left: 8em;
+        padding-left: 7em;
     }
 
     .headerAni {
