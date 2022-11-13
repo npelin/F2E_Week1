@@ -286,6 +286,10 @@ body {
         display: none;
     }
 
+    .headerTitle div:nth-child(1){
+        padding-left: 8em;
+    }
+
     .headerAni {
         height: auto;
     }
@@ -439,6 +443,10 @@ body {
 
     .header .menu li span {
         display: none;
+    }
+    
+    .headerTitle div:nth-child(1){
+        padding-left: 8em;
     }
 
     .headerAni {
